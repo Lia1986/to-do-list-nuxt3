@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/vuelidate": "^0.7.18",
+    "nuxt": "^3.7.3",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "D": "^1.0.0",
+    "pinia": "^2.1.6",
+    "vuelidate": "^0.7.7"
+  }
+}
